@@ -27,4 +27,5 @@ for n, n_sr in zip(n_ler, sr_n_logar):
     print("При k =", n)
     for ch_log, x in zip(logarifm_x[:n], x_li[:n]):
         #print("простое число = ", x,": abs(", n_sr, "-", ch_log, ") =", abs(n_sr-ch_log))
-        print("Погрешность при простом числе",x,":", '{:0.9f}'.format(abs(n_sr-ch_log)))
+        #print("Погрешность при простом числе",x,":", '{:0.9f}'.format(abs(n_sr-ch_log)))
+        print("p(",x,")=", '{:0.9f}'.format(abs(n_sr-ch_log)))
